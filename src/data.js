@@ -9,7 +9,7 @@ export const products = [
     {
         id : 2,
         img : "https://cdn.discordapp.com/attachments/290971732293058560/907310761964085268/Screen-Loja.jpg", 
-        link : "https://jeovabah.github.io/ContagemAnoNovo-Responsivo/",
+        link : "https://jeovabah.github.io/Loja-HTML-CSS-Responsivo/",
         nome : "Loja",
         desc : "HTML-CSS-JS"
     },
