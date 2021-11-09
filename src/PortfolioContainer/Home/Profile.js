@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import Contact from "../ContactMe/Contact";
 import "./Profile.css";
 
 export default function Profile() {
@@ -51,15 +52,15 @@ export default function Profile() {
           </div>
 
           <div className="profile-options">
-            <button className="btn primary-btn">
+            <a href="#contato" className="btn primary-btn">
               {" "}
               Contrate{" "}
-            </button>
+            </a>
             <a
               href="curriculo_JeovaJr.pdf"
               download="Curriculo curriculo_JeovaJr.pdf"
             >
-              <button className="btn highlighted-btn">   Curriculo</button>
+              <button className="btn highlighted-btn">Curriculo</button>
             </a>
           </div>
         </div>
