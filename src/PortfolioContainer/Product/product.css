@@ -1,0 +1,65 @@
+.p {
+    width: 30%;
+    height: 60vh;
+    margin: 20px 10px;
+    border: 2px solid #00296b;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.p-browser {
+    height: 20px;
+    background-color: #00296b;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #00509d;
+}
+.p-name {
+    text-align: left;
+    text-justify: auto;
+    width: 120%;
+    
+    margin: 0 5%; 
+    color: #8480A5;
+    font-weight: 500;
+    font-family: "Poppins" , sans-serif;
+}
+
+
+@media screen and (max-width:325px) {
+    .p {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .p {
+        width: 100%;
+        height: 50vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .p {
+        width: 100%;
+        height: 50vh;
+    }
+}
+@media screen and (max-width:1024px) {
+   
+   .p {
+       width: 100%;
+       height: 50vh;
+   }
+    .p-name {
+       font-size: 15px;
+   }
+
+}
