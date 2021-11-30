@@ -15,6 +15,6 @@ function App() {
     
   );
 }
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1623028513276425" crossorigin="anonymous"></script>
+
 
 export default App;
